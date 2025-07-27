@@ -1,0 +1,21 @@
+{
+  "name": "token-sanitizer",
+  "version": "1.0.0",
+  "description": "Sanitizes authentication tokens for Express.js API",
+  "main": "sanitizeToken.js",
+  "scripts": {
+    "dev": "node sanitizeToken.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "token",
+    "sanitizer",
+    "auth",
+    "express"
+  ],
+  "author": "Leonard Phokane",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
